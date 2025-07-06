@@ -195,12 +195,15 @@ html, body {
 
     .Notes-Section {
         padding: 10px;
-        justify-content: center;
+        flex-wrap: nowrap;
+        align-items: center;
+        justify-content: left;
+        flex-direction: column;
     }
 
     .Note {
         width: 100%;
-        height: 150px;
+        height: 125px;
         flex-direction: column;
     }
 
@@ -216,7 +219,7 @@ html, body {
 
     .Contents {
         width: 75%;
-        height: 125px;
+        height: 100px;
         padding: 10px;
         flex-grow: 1;
         font-size: small;
@@ -224,7 +227,7 @@ html, body {
 
     .Buttons {
         width: 25%;
-        height: 125px;
+        height: 100px;
         flex-direction: column;
         justify-content: space-around;
     }
