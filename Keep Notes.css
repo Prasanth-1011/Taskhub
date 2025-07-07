@@ -194,11 +194,9 @@ html, body {
     }
 
     .Notes-Section {
-        padding: 10px;
-        flex-wrap: nowrap;
+        padding: 8px;
         align-items: center;
-        justify-content: left;
-        flex-direction: column;
+        flex-direction: row;
     }
 
     .Note {
@@ -221,7 +219,6 @@ html, body {
         width: 75%;
         height: 100px;
         padding: 10px;
-        flex-grow: 1;
         font-size: small;
     }
 
