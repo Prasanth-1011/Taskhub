@@ -236,6 +236,7 @@ html, body {
     }
 
     .Add-Note {
+        width: 40%;
         font-size: medium;
     }
 
